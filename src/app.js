@@ -32,7 +32,7 @@ DiscordRPC.register(clientId);
 async function setActivity(){
     if (!RPC) return;
     RPC.setActivity({
-        details: `Jugando a "El Hoyo"`,
+        details: `Jugando a "Miniant Launcher"`,
         startTimestamp: Date.now(),
         largeImageKey: 'corta',
         largeImageText: `...`,
